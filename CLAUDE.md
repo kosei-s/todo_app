@@ -29,3 +29,7 @@ Open `index.html` directly in a web browser - no build step or server required.
 - Data structure: `{text: string, completed: boolean}`
 - Global functions `toggleComplete()` and `deleteTodo()` are exposed on window for HTML onclick handlers
 - localStorage key: 'todos'
+
+## Interaction Guidelines
+
+- 英語で回答する際、要約を日本語でも出力して
