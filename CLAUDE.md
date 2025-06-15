@@ -88,6 +88,27 @@ open index.html            # Open application in browser (no build needed)
 4. **Code Changes**: Edit `script.js`, `style.css`, or `index.html` as needed
 5. **Verification**: Run tests and manual browser testing
 
+## Testing
+
+### Setup
+The project now includes Jest testing framework for unit testing:
+
+- **Testing Framework**: Jest with jsdom environment
+- **Test Files**: Located in `tests/` directory
+- **Configuration**: `jest.config.js` and `.babelrc` for ES6 support
+
+### Running Tests
+```bash
+npm install        # Install dependencies
+npm test          # Run all tests
+npm run test:watch # Run tests in watch mode
+npm run test:coverage # Run tests with coverage report
+```
+
+### Test Structure
+- `tests/setup.js`: Mock configurations for localStorage, alert, and confirm
+- `tests/todo.test.js`: Unit tests for core TODO functionality
+
 ## Troubleshooting
 
 ### Common Issues
